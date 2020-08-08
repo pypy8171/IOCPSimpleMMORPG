@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Packet">
+      <UniqueIdentifier>{d1344ebc-148b-415b-836b-e8d340ee53e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Packet\LoginPacket">
+      <UniqueIdentifier>{5953931e-c286-40c2-b419-47fb2ad55f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PacketHandler">
+      <UniqueIdentifier>{2ac6ff90-a753-425f-afc0-1a626e5c9feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Packet\MovePacket">
+      <UniqueIdentifier>{0b08d7b4-2c12-452b-ac3e-46fd1cbc0cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View">
+      <UniqueIdentifier>{66a0eee7-fe85-4f06-8662-5d42437fa540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DBHandler">
+      <UniqueIdentifier>{a1462f3e-d800-4fea-8a6a-691a01757149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AIHandler">
+      <UniqueIdentifier>{52a4818b-7692-44aa-8791-f078eb78666f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Initializer">
+      <UniqueIdentifier>{ac07767c-c797-43fc-b8ab-83b2c9f2b2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ScriptHandler">
+      <UniqueIdentifier>{7c72720b-1b17-4289-a773-70d712ba904e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>소스 파일\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginPacket.h">
+      <Filter>소스 파일\Packet\LoginPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler.h">
+      <Filter>소스 파일\PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePacket.h">
+      <Filter>소스 파일\Packet\MovePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewProcessing.h">
+      <Filter>소스 파일\View</Filter>
+    </ClInclude>
+    <ClInclude Include="extern.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lauxlib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="luaconf.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lualib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHandler.h">
+      <Filter>소스 파일\DBHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="AIHandler.h">
+      <Filter>소스 파일\AIHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Initializer.h">
+      <Filter>소스 파일\Initializer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptHandler.h">
+      <Filter>소스 파일\ScriptHandler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>소스 파일\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginPacket.cpp">
+      <Filter>소스 파일\Packet\LoginPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler.cpp">
+      <Filter>소스 파일\PacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePacket.cpp">
+      <Filter>소스 파일\Packet\MovePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewProcessing.cpp">
+      <Filter>소스 파일\View</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHandler.cpp">
+      <Filter>소스 파일\DBHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="AIHandler.cpp">
+      <Filter>소스 파일\AIHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Initializer.cpp">
+      <Filter>소스 파일\Initializer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptHandler.cpp">
+      <Filter>소스 파일\ScriptHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="NPC.LUA">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lua53.lib">
+      <Filter>리소스 파일</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

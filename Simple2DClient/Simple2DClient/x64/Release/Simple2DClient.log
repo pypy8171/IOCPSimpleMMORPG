@@ -1,0 +1,9 @@
+﻿  2dClient.cpp
+c:\users\yonghwan\desktop\[게임서버 화목 텀프로젝트] 2014180020 박용환\simple2dclient\simple2dclient\2dclient.cpp(137): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yonghwan\desktop\[게임서버 화목 텀프로젝트] 2014180020 박용환\simple2dclient\simple2dclient\2dclient.cpp(604): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yonghwan\desktop\[게임서버 화목 텀프로젝트] 2014180020 박용환\simple2dclient\simple2dclient\2dclient.cpp(637): warning C4305: '=': 'unsigned __int64'에서 'char'(으)로 잘립니다.
+c:\users\yonghwan\desktop\[게임서버 화목 텀프로젝트] 2014180020 박용환\simple2dclient\simple2dclient\2dclient.cpp(637): warning C4309: '=': 상수 값이 잘립니다.
+  코드를 생성하고 있습니다.
+  All 693 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Simple2DClient.vcxproj -> C:\Users\YongHwan\Desktop\[게임서버 화목 텀프로젝트] 2014180020 박용환\Simple2DClient\x64\Release\Simple2DClient.exe
